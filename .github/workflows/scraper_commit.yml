@@ -3,7 +3,7 @@ name: Scraper Carrefour (commit)
 on:
   schedule:
     # 09:00 UTC ≈ 06:00 BRT
-    - cron: "10 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
